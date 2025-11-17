@@ -74,7 +74,7 @@ const Index = () => {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Home" className="h-6 w-6 text-primary" />
-            <span className="text-xl font-semibold">RentSpace</span>
+            <span className="text-xl font-semibold">Канклав</span>
           </div>
           
           <nav className="hidden md:flex items-center gap-6">
@@ -255,7 +255,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Home" className="h-6 w-6 text-primary" />
-                <span className="text-lg font-semibold">RentSpace</span>
+                <span className="text-lg font-semibold">Канклав</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Платформа для поиска и аренды недвижимости
@@ -285,7 +285,7 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" className="h-4 w-4" />
-                  info@rentspace.ru
+                  info@kanklav.ru
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Phone" className="h-4 w-4" />
@@ -296,7 +296,7 @@ const Index = () => {
           </div>
 
           <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-            <p>© 2024 RentSpace. Все права защищены.</p>
+            <p>© 2024 Канклав. Все права защищены.</p>
           </div>
         </div>
       </footer>
