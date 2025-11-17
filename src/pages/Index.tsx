@@ -20,33 +20,63 @@ interface Property {
 const mockProperties: Property[] = [
   {
     id: 1,
-    title: 'Современная квартира в центре',
-    location: 'Москва, Пресненский р-н',
-    price: 85000,
-    rooms: 2,
-    area: 65,
-    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/86066f28-0a11-4d3d-bfee-b01ae2969d7e.jpg',
-    type: 'apartment'
+    title: 'Деревянный дом в историческом центре',
+    location: 'Ярославль, Кировский р-н',
+    price: 65000,
+    rooms: 3,
+    area: 95,
+    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/dcae2ed2-a8f9-42d8-9c0e-9614d3cd7b16.jpg',
+    type: 'house'
   },
   {
     id: 2,
-    title: 'Пентхаус с панорамным видом',
-    location: 'Санкт-Петербург, Адмиралтейский',
-    price: 150000,
-    rooms: 3,
-    area: 120,
-    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/80792bed-53d5-4670-89b7-34a713006b17.jpg',
-    type: 'apartment'
+    title: 'Кирпичный коттедж с участком',
+    location: 'Ярославль, Дзержинский р-н',
+    price: 120000,
+    rooms: 4,
+    area: 180,
+    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/86066f28-0a11-4d3d-bfee-b01ae2969d7e.jpg',
+    type: 'house'
   },
   {
     id: 3,
-    title: 'Уютная студия для комфортной жизни',
-    location: 'Казань, Вахитовский р-н',
-    price: 35000,
-    rooms: 1,
-    area: 35,
+    title: 'Дом у Волги с панорамными окнами',
+    location: 'Ярославль, Красноперекопский р-н',
+    price: 95000,
+    rooms: 3,
+    area: 140,
+    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/80792bed-53d5-4670-89b7-34a713006b17.jpg',
+    type: 'house'
+  },
+  {
+    id: 4,
+    title: 'Современный таунхаус в новом районе',
+    location: 'Ярославль, Заволжский р-н',
+    price: 75000,
+    rooms: 3,
+    area: 110,
     image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/c46f0f6f-73d5-434d-a9dc-ded84ac53a94.jpg',
-    type: 'studio'
+    type: 'house'
+  },
+  {
+    id: 5,
+    title: 'Уютный дом с баней и садом',
+    location: 'Ярославль, Фрунзенский р-н',
+    price: 55000,
+    rooms: 2,
+    area: 85,
+    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/dcae2ed2-a8f9-42d8-9c0e-9614d3cd7b16.jpg',
+    type: 'house'
+  },
+  {
+    id: 6,
+    title: 'Просторный дом для большой семьи',
+    location: 'Ярославль, Ленинский р-н',
+    price: 110000,
+    rooms: 5,
+    area: 220,
+    image: 'https://cdn.poehali.dev/projects/da95c46e-09c0-4a62-a616-234d692fb8c5/files/86066f28-0a11-4d3d-bfee-b01ae2969d7e.jpg',
+    type: 'house'
   }
 ];
 
